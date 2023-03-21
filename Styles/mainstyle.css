@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
  --white: hsl(0, 0%, 100%);
  --light-gray: hsl(212, 45%, 89%);
@@ -13,27 +19,46 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 img {
-    width: 380px;
-    padding: 0.5rem, 0,1rem;
-    margin: 0;
+    width: 335px;
+    border-radius: 15px;
+    
     
 }
 .main-card {
-    height: fit-content;
-    width: 300px;
-    margin: 4rem;
+    height: 530px;
+    width: 360px;
+    margin: 5rem auto;
     padding: 4rem;
     background-color: var(--white);
+    position: relative;
+    border-radius: 15px;
 }
 
 .image-container {
     display: flex;
     justify-content: center;
+    margin-top: -48px ;
+    
+
+}
+
+h1{
+    font-family: var(--font-family);
+    margin: 30px auto 10px;
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--Dark-blue);
 }
 
 p {
     font-family: var(--font-family);
+    font-size: 15px;
+    margin: 10px auto;
+    font-weight: 400;
+    text-align: center;
+    color: var(--grayish-blue);
 }
