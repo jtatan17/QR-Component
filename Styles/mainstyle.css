@@ -22,10 +22,8 @@ main {
 }
 
 img {
-    width: 282px;
+    height: 280px;
     border-radius: 15px;
-    
-    
 }
 .main-card {
     flex-direction: column;
