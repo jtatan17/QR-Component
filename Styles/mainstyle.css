@@ -19,18 +19,17 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 img {
-    width: 335px;
+    width: 282px;
     border-radius: 15px;
     
     
 }
 .main-card {
-    height: 560px;
-    width: 360px;
+    height: 497px;
+    width: 320px;
     margin: 5rem auto;
     padding: 4rem;
     background-color: var(--white);
@@ -50,13 +49,13 @@ h1{
     font-family: var(--font-family);
     margin: 30px auto 10px;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 16px;
     color: var(--Dark-blue);
 }
 
 p {
     font-family: var(--font-family);
-    font-size: 15px;
+    font-size: 13px;
     margin: 10px auto;
     font-weight: 400;
     text-align: center;
